@@ -18,5 +18,5 @@
 	<context:property-placeholder
 		ignore-unresolvable="true" location="classpath:placeholder/*.properties" />
 
-	<import resource="classpath:spring/spring-redis.xml" />
+	<!-- <import resource="classpath:spring/spring-redis.xml" /> -->
 </beans>
