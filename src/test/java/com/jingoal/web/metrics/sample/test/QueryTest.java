@@ -53,7 +53,7 @@ public class QueryTest {
 	}
 
 	private static Random r = new Random();
-	private static Logger logger = LoggerFactory.getLogger("/ldap/xiezheng/metrics");
+	private static Logger logger = LoggerFactory.getLogger("/chenbin/metrics");
 	private static Slf4jReporter slf4jReporter = null;
 	private static final MetricRegistry metrics = new MetricRegistry();
 	private static final Timer timer = metrics.timer("jin-join");
